@@ -1,0 +1,52 @@
+#allPosts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.post {
+  width: 250px;
+  border: 5px solid rgb(215, 191, 9);
+  border-radius: 5px;
+  margin: 20px;
+  padding: 20px;
+}
+
+.postChecked {
+  color: white;
+  background-color: black;
+  width: 250px;
+  border: 5px solid black;
+  border-radius: 5px;
+  margin: 20px;
+  padding: 20px;
+}
+
+.post h2,
+.postChecked h2 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.postHide {
+  display: none;
+}
+
+.inp {
+  margin: 20px;
+  width: 300px;
+  height: 30px;
+  border: 3px solid black;
+  border-radius: 5px;
+}
+
+.btn {
+  height: 35px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: black;
+  color: white;
+}
